@@ -1,1 +1,1 @@
-web: gunicorn cradle.app:main_app --log-file -
+web: gunicorn app:app --log-file -
