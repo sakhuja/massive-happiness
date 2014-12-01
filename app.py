@@ -1,4 +1,6 @@
 from flask import Flask
+from flask import redirect, render_template
+
 app = Flask(__name__)
 
 @app.route("/")
